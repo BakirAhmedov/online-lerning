@@ -1,0 +1,138 @@
+.nav__link {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #222;
+}
+.nav__link:hover,
+.nav__active {
+  color: #086cf9;
+}
+.btn__singin {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.btn__singin:hover {
+  background: rgba(95, 91, 91, 0.384);
+  transition: 1s;
+}
+
+.section__title {
+  font-size: 56px;
+  line-height: 72px;
+  font-weight: 700;
+  color: #222222;
+}
+.card__title {
+  font-size: 20px;
+  line-height: 26xpx;
+  font-weight: 600;
+  color: #222222;
+}
+.card__text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #444444;
+}
+.section__text,
+.footer__text,
+.mentor__position {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #555555;
+}
+/* Main */
+.main {
+  background-image: url(./images/home__back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 739px;
+  filter: brightness(0.9);
+}
+/* Planning */
+.img__monstera {
+  background-image: url(./images/monstera.png);
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: contain;
+}
+/* Work */
+.work__img {
+  width: 80px;
+  height: 74px;
+}
+/* Online Courses */
+.courses {
+  background-color: #ecf4ff;
+}
+.card__result {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card__result svg {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #555;
+  border-radius: 32px;
+}
+/* Our Mentor */
+.our__mentor {
+  background: #efefef;
+}
+.card__mentor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card__result svg {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #555;
+  border-radius: 32px;
+}
+.mentor__target {
+  color: #086cf9;
+}
+/* Event */
+.card__event {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Statiks Event */
+.statiks__event {
+  background-color: #d3e5fe;
+}
+/*  */
+.say {
+  border-radius: 12px;
+  background-color: #086cf9;
+}
+.student__say-title,
+.student__say-text {
+  color: #fff;
+}
+.students__btn {
+  background-color: #4808f9;
+}
+/* Footer */
+.footer {
+  background-color: #d3e5fe;
+}
+.footer__icons-wrapper svg {
+  margin-left: 12px;
+}
+.footer__icons-wrapper a {
+  text-decoration: none;
+}
+.footer__title {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #222;
+}
